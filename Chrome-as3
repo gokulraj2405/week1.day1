@@ -1,0 +1,15 @@
+package week1.day1;
+
+public class Chrome {
+	public void getname() {
+		System.out.println("This is getname method & This is google chrome");
+
+	}
+	public void printName() {
+		System.out.println("This is printname method & This is google chrome");
+
+	}
+	
+		
+		
+	}
