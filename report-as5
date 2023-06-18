@@ -1,0 +1,24 @@
+package week1.day1;
+
+public class Report {
+
+	public static void main(String[] args) {
+		Student s1 =new Student();
+		System.out.println(s1);
+		s1.studentName = "gokul";
+		s1.rollNo = 6010515;
+		s1.collegeName ="Testleaf college of engineering";
+		s1.markScored = 83;
+		s1.cgpa = 8.36f;
+		System.out.println(s1.studentName);
+		System.out.println(s1.rollNo);
+		System.out.println(s1.collegeName);
+		System.out.println(s1.markScored);
+		System.out.println(s1.cgpa);
+			
+		
+	
+
+	}
+
+}
