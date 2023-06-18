@@ -1,0 +1,26 @@
+package week1.day1;
+
+public class Mobile {
+	public  void sendSMS() {
+		System.out.println("Hello testleaf");
+
+	}
+	protected void allowVoicecall() {
+	System.out.println("this is protected");
+
+	}
+	private void takeVedio() {
+		System.out.println("this is private");
+
+	}
+	
+
+	public static void main(String[] args) {
+		Mobile obj=new Mobile();
+		obj.allowVoicecall();
+		obj.sendSMS();
+		obj.takeVedio();
+		
+			}
+
+}
